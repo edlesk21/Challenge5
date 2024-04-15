@@ -17,3 +17,7 @@ header {
     margin: 0;
     display: flex;
 }
+
+.navigate li {
+    margin-right: 15px;
+}
