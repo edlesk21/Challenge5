@@ -21,3 +21,7 @@ header {
 .navigate li {
     margin-right: 15px;
 }
+
+.login {
+    text-align: right;
+}
