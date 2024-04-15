@@ -11,6 +11,13 @@ header {
     padding: 5px;
 }
 
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
 .navigate {
     list-style: none;
     padding: 0;
