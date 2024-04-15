@@ -6,6 +6,11 @@ body {
     color: #333;
 }
 
+h1{
+    font-size: 14px;
+    color: black;
+}
+
 header {
     background-color: #ff6600;
     padding: 5px;
@@ -32,4 +37,14 @@ header nav{
 
 .login {
     text-align: right;
+}
+
+.news {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.newsli {
+    padding: 5px 0;
 }
