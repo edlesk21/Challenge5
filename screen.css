@@ -10,18 +10,23 @@ h1{
     font-size: 14px;
     color: black;
     display: flex;
+    margin-left: 10px;
 }
 
 header {
     background-color: #ff6600;
-    padding: 5px;
+    padding: 0px;
 }
 
 header nav{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.login{
+    margin-right: 10px;
 }
 
 .navigate {
@@ -30,14 +35,11 @@ header nav{
     margin: 0;
     display: flex;
     color: black;
+    align-items: center;
 }
 
 .navigate li {
     margin-right: 15px;
-}
-
-.login {
-    text-align: right;
 }
 
 .news {
@@ -47,6 +49,7 @@ header nav{
 }
 
 .news li {
+    background-color: antiquewhite;
     padding: 5px 0;
 }
 
