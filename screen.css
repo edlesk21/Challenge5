@@ -54,12 +54,12 @@ header nav{
 }
 
 .news .num, .news .title, .news .url {
-    display: inline; /* Keeps number and title on the same line */
+    display: inline;
 }
 
 .news .text {
-    display: block; /* Moves URL to a new line */
-    margin-top: 0px; /* Adds a little space between the title and the URL */
+    display: block; 
+    margin-top: 0px; 
     margin-left: 50px;
     margin-bottom: 4px;
     color: #828282;
