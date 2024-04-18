@@ -43,19 +43,36 @@ header nav{
 }
 
 .news {
+    background-color: antiquewhite;
     list-style: none;
     padding: 0;
-    margin: 20px 0;
+    margin: 0px 0;
 }
 
 .news li {
-    background-color: antiquewhite;
     padding: 5px 0;
+}
+
+.news .num, .news .title, .news .url {
+    display: inline; /* Keeps number and title on the same line */
+}
+
+.news .text {
+    display: block; /* Moves URL to a new line */
+    margin-top: 5px; /* Adds a little space between the title and the URL */
+    margin-left: 50px;
+    color: #828282;
+    font-size: 12px;
+}
+
+.num{
+    margin: 10px;
+    color: #828282;
 }
 
 .title {
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .url {
