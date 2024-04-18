@@ -59,8 +59,9 @@ header nav{
 
 .news .text {
     display: block; /* Moves URL to a new line */
-    margin-top: 5px; /* Adds a little space between the title and the URL */
+    margin-top: 0px; /* Adds a little space between the title and the URL */
     margin-left: 50px;
+    margin-bottom: 4px;
     color: #828282;
     font-size: 11px;
 }
@@ -72,7 +73,6 @@ header nav{
 
 .title {
     font-weight: bold;
-    margin-left: 5px;
 }
 
 .url {
