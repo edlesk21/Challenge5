@@ -50,7 +50,7 @@ header nav{
 }
 
 .news li {
-    padding: 5px 0;
+    padding: 0px 0;
 }
 
 .news .num, .news .title, .news .url {
@@ -62,7 +62,7 @@ header nav{
     margin-top: 5px; /* Adds a little space between the title and the URL */
     margin-left: 50px;
     color: #828282;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .num{
